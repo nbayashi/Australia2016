@@ -123,6 +123,6 @@ var czml = [
   }
 ];
 viewer.dataSources.add(Cesium.CzmlDataSource.load(czml));
-viewer.dataSources.add(Cesium.KmlDataSource.load('http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/water_area.kml'));
+viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/AUS2016Low.kmz'));
 viewer.camera.flyTo({   
      destination : Cesium.Cartesian3.fromDegrees(135.1320894411087,35.28799163469748,8000)});
