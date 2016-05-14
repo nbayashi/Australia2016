@@ -65,7 +65,10 @@ var czml = [
   },{
     "id" : "7",
     "name" : "A‚³‚ñ",
-    "description" : "test",
+    "description" : '<img
+  width="50%"
+  style="float:left; margin: 0 1em 1em 0;"
+  src="0501/IMG_1919.JPG"/>',
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/a.png",
       "scale" : 0.2
@@ -125,4 +128,4 @@ var czml = [
 viewer.dataSources.add(Cesium.CzmlDataSource.load(czml));
 viewer.dataSources.add(Cesium.KmlDataSource.load('AUS2016.kml'));
 viewer.camera.flyTo({   
-     destination : Cesium.Cartesian3.fromDegrees(137.406738,-26.222298,8000)});
+     destination : Cesium.Cartesian3.fromDegrees(135.825462,35.086077,8000)});
