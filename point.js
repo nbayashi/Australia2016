@@ -65,10 +65,7 @@ var czml = [
   },{
     "id" : "7",
     "name" : "A‚³‚ñ",
-    "description" : '<img
-  width="50%"
-  style="float:left; margin: 0 1em 1em 0;"
-  src="0501/IMG_1919.JPG"/>',
+    "description" : '<img src="0501/IMG_1919.JPG"/>',
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/a.png",
       "scale" : 0.2
