@@ -36,8 +36,7 @@ var czml = [
   },{
     "id" : "6",
     "name" : "M‚³‚ñ",
-    "description" : {
-	"image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/noimage.png"},
+    "description" : <![CDATA[<p>Longitude:135.544143676758</p><p>Latitude:-30.8171157836914</p><p>2016/5/3  10:43:55</p><p>count:</p><p></p><p><img src="0503/P5030398.JPG" height=400></img></p>]]>,
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/noimage.png",
       "scale" : 0.2
