@@ -36,7 +36,7 @@ var czml = [
   },{
     "id" : "6",
     "name" : "M‚³‚ñ",
-    "description" : <![CDATA[<p>Longitude:135.544143676758</p><p>Latitude:-30.8171157836914</p><p>2016/5/3  10:43:55</p><p>count:</p><p></p><p><img src="0503/P5030398.JPG" height=400></img></p>]]>,
+    "description" : "test",
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/noimage.png",
       "scale" : 0.2
@@ -123,6 +123,6 @@ var czml = [
   }
 ];
 viewer.dataSources.add(Cesium.CzmlDataSource.load(czml));
-viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/AUS2016.kml'));
+viewer.dataSources.add(Cesium.KmlDataSource.load('AUS2016.kml'));
 viewer.camera.flyTo({   
      destination : Cesium.Cartesian3.fromDegrees(137.406738,-26.222298,8000)});
