@@ -67,7 +67,7 @@ var czml = [
     "name" : "A‚³‚ñ",
     "description" : {
 	"image" : "http://nbayashi.github.io/Australia2016/0501/IMG_1919.JPG"
-	}
+	},
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/a.png",
       "scale" : 0.2
