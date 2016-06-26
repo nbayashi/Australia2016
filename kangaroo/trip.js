@@ -280,3 +280,4 @@ viewer.entities.add({
                }
            });
 
+viewer.zoomTo(viewer.entities);
