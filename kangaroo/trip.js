@@ -306,7 +306,14 @@ viewer.entities.add({
                }
            });
 
-
+viewer.entities.add({
+   position : Cesium.Cartesian3.fromDegrees(138.016342163086,-33.0238914489746),
+       description : "<p>Longitude : 138.016342163086</p><p>Latitude : -33.0238914489746</p><p>2016/5/3  17:52:36</p>",
+           billboard : {
+               image:'kangaroo.png',
+               scale : 0.1
+               }
+           });
 
 viewer.zoomTo(viewer.entities);
 
