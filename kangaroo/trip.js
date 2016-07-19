@@ -293,9 +293,6 @@ viewer.entities.add({
                }
            });
 
-viewer.dataSources.add(Cesium.KmlDataSource.load('doc.kml'),{
-         camera: viewer.scene.camera,
-         canvas: viewer.scene.canvas
-});
+viewer.dataSources.add(Cesium.KmlDataSource.load('doc.kml'));
 
 viewer.zoomTo(viewer.entities);
