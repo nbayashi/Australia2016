@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="AUS_msk_alt.vrt">
+  <name>AUS_msk_alt.vrt</name>
+  <Snippet></Snippet>
+  <GroundOverlay id="0">
+    <Snippet></Snippet>
+    <drawOrder>1000</drawOrder>
+    <name>AUS_msk_alt.vrt</name>
+    <Icon>
+      <href>Layer0.png</href>
+      <viewBoundScale>1.0</viewBoundScale>
+    </Icon>
+    <LatLonBox>
+      <north>-4.520000183199999</north>
+      <south>-59.47999798480001</south>
+      <east>163.8399979584</east>
+      <west>108.1600001856</west>
+      <rotation>0</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</Document>
+</kml>
