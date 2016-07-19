@@ -297,17 +297,6 @@ viewer.entities.add({
            });
 
 
-Sandcastle.addToolbarMenu([{
-    text : 'Normal',
-   
-}, {
-    text : 'Altitude Mode',
-    onselect : function() {
-        viewer.camera.flyHome(0);
-        viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/kangaroo/km1l.kmz', options));
-    }
-
-}], 'toolbar');
 viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/kangaroo/km1l.kmz'));
 
 viewer.zoomTo(viewer.entities);
