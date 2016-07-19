@@ -294,6 +294,6 @@ viewer.entities.add({
            });
 
 
-viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/kangaroo/km1l.kmz'));
+viewer.dataSources.add(Cesium.KmlDataSource.load('km1l.kmz'));
 
 viewer.zoomTo(viewer.entities);
