@@ -1,8 +1,5 @@
 var viewer = new Cesium.Viewer('cesiumContainer');
-var options = {
-    camera : viewer.scene.camera,
-    canvas : viewer.scene.canvas
-};
+
 
 
 viewer.entities.add({
