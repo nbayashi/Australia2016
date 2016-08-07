@@ -8,7 +8,7 @@
     <drawOrder>1000</drawOrder>
     <name>AUS_msk_alt.vrt</name>
     <Icon>
-      <href>Layer0.png</href>
+      <href> http://nbayashi.github.io/Australia2016/kangaroo/Layer0.png</href>
       <viewBoundScale>1.0</viewBoundScale>
     </Icon>
     <LatLonBox>
