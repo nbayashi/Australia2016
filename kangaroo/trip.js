@@ -3,7 +3,7 @@ var viewer = new Cesium.Viewer('cesiumContainer');
 
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(134.54362487793,-28.8043785095215),
+   position : Cesium.Cartesian3.fromDegrees(134.54362487793,-28.8043785095215,500),
        description : "<p>Longitude : 134.54362487793</p><p>Latitude : -28.8043785095215</p><p>2016/5/2  19:13:40</p>",
            billboard : {
                image:'kangaroo.png',
