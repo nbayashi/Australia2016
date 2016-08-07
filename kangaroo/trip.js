@@ -12,7 +12,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(134.99560546875,-29.3850479125977),
+   position : Cesium.Cartesian3.fromDegrees(134.99560546875,-29.3850479125977,1000),
        description : "<p>Longitude : 134.99560546875</p><p>Latitude : -29.3850479125977</p><p>2016/5/3  09:04:35</p>",
            billboard : {
                image:'kangaroo.png',
@@ -21,7 +21,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849334716797),
+   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849334716797,1500),
        description : "<p>Longitude : 134.995513916016</p><p>Latitude : -29.3849334716797</p><p>2016/5/3  09:05:00</p>",
            billboard : {
                image:'kangaroo.png',
@@ -30,7 +30,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849334716797),
+   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849334716797,2000),
        description : "<p>Longitude : 134.995513916016</p><p>Latitude : -29.3849334716797</p><p>2016/5/3  09:05:33</p>",
            billboard : {
                image:'kangaroo.png',
@@ -39,7 +39,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849220275879),
+   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849220275879,2500),
        description : "<p>Longitude : 134.995513916016</p><p>Latitude : -29.3849220275879</p><p>2016/5/3  09:06:40</p>",
            billboard : {
                image:'kangaroo.png',
@@ -48,7 +48,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849124908447),
+   position : Cesium.Cartesian3.fromDegrees(134.995513916016,-29.3849124908447,3000),
        description : "<p>Longitude : 134.995513916016</p><p>Latitude : -29.3849124908447</p><p>2016/5/3  09:07:02</p>",
            billboard : {
                image:'kangaroo.png',
@@ -57,7 +57,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.443664550781,-30.6799488067627),
+   position : Cesium.Cartesian3.fromDegrees(135.443664550781,-30.6799488067627,3500),
        description : "<p>Longitude : 135.443664550781</p><p>Latitude : -30.6799488067627</p><p>2016/5/3  10:33:10</p>",
            billboard : {
                image:'kangaroo.png',
@@ -66,7 +66,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.469329833984,-30.698034286499),
+   position : Cesium.Cartesian3.fromDegrees(135.469329833984,-30.698034286499,4000),
        description : "<p>Longitude : 135.469329833984</p><p>Latitude : -30.698034286499</p><p>2016/5/3  10:34:55</p>",
            billboard : {
                image:'kangaroo.png',
@@ -75,7 +75,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.47282409668,-30.7010688781738),
+   position : Cesium.Cartesian3.fromDegrees(135.47282409668,-30.7010688781738,4500),
        description : "<p>Longitude : 135.47282409668</p><p>Latitude : -30.7010688781738</p><p>2016/5/3  10:35:10</p>",
            billboard : {
                image:'kangaroo.png',
@@ -84,7 +84,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.473037719727,-30.7012691497803),
+   position : Cesium.Cartesian3.fromDegrees(135.473037719727,-30.7012691497803,5000),
        description : "<p>Longitude : 135.473037719727</p><p>Latitude : -30.7012691497803</p><p>2016/5/3  10:35:11</p>",
            billboard : {
                image:'kangaroo.png',
@@ -102,7 +102,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.490707397461,-30.7192687988281),
+   position : Cesium.Cartesian3.fromDegrees(135.490707397461,-30.7192687988281,5500),
        description : "<p>Longitude : 135.490707397461</p><p>Latitude : -30.7192687988281</p><p>2016/5/3  10:36:38</p>",
            billboard : {
                image:'kangaroo.png',
@@ -111,7 +111,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.509155273438,-30.7641162872314),
+   position : Cesium.Cartesian3.fromDegrees(135.509155273438,-30.7641162872314,6000),
        description : "<p>Longitude : 135.509155273438</p><p>Latitude : -30.7641162872314</p><p>2016/5/3  10:39:37</p>",
            billboard : {
                image:'kangaroo.png',
@@ -129,7 +129,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.509414672852,-30.7645969390869),
+   position : Cesium.Cartesian3.fromDegrees(135.509414672852,-30.7645969390869,6500),
        description : "<p>Longitude : 135.509414672852</p><p>Latitude : -30.7645969390869</p><p>2016/5/3  10:39:39</p>",
            billboard : {
                image:'kangaroo.png',
@@ -138,7 +138,7 @@ viewer.entities.add({
            });
 
 viewer.entities.add({
-   position : Cesium.Cartesian3.fromDegrees(135.52587890625,-30.7841014862061),
+   position : Cesium.Cartesian3.fromDegrees(135.52587890625,-30.7841014862061,7000),
        description : "<p>Longitude : 135.52587890625</p><p>Latitude : -30.7841014862061</p><p>2016/5/3  10:41:18</p>",
            billboard : {
                image:'kangaroo.png',
