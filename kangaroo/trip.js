@@ -294,6 +294,19 @@ viewer.entities.add({
            });
 
 
-viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/kangaroo/doc.kml'));
+var options = {
+    camera : viewer.scene.camera,
+    canvas : viewer.scene.canvas
+};
+
+Sandcastle.addToolbarMenu([{
+    text : 'KML - Global Science Facilities',
+    onselect : function() {
+        viewer.camera.flyHome(0);
+        viewer.dataSources.add(Cesium.KmlDataSource.load('doc.kml', options));
+    }
+
+}], 'toolbar');
+
 
 viewer.zoomTo(viewer.entities);
