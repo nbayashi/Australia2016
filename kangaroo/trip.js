@@ -294,16 +294,11 @@ viewer.entities.add({
            });
 
 
-var options = {
-    camera : viewer.scene.camera,
-    canvas : viewer.scene.canvas
-};
-
-Sandcastle.addToolbarMenu([{
-    text : 'KML - Global Science Facilities',
-    onselect : function() {
-        viewer.camera.flyHome(0);
-        viewer.dataSources.add(Cesium.KmlDataSource.load('doc.kml', options));
-    }
-}, ], 'toolbar');
+viewer.dataSources.add(Cesium.KmlDataSource.load('doc.kml'),
+     {
+         camera: viewer.scene.camera,
+         canvas: viewer.scene.canvas
+     });
+     
+     
 viewer.zoomTo(viewer.entities);
