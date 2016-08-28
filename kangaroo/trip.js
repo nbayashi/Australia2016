@@ -294,7 +294,7 @@ viewer.entities.add({
            });
 
 
-viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/kangaroo/doc.kml'));
+viewer.dataSources.add(Cesium.KmlDataSource.load('http://nbayashi.github.io/Australia2016/kangaroo/doc.kml'),);
 
 
 viewer.zoomTo(viewer.entities);
