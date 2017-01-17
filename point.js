@@ -6,8 +6,8 @@ var czml = [
     "version" : "1.0"
   }, {
     "id" : "1",
-    "name" : "K‚³‚ñ",
-    "description" : "’²¸ƒGƒŠƒAŠwZü•Ó’²¸’n‹æ–x’n‹æ–¼K‚³‚ñ«•Ê—«‹Z”N”¶‚Ü‚ê‚½‚©‚ç‚V‚O?‚W‚O”N‹‰J‚ÌˆóÛ¬”ü‚Z‚Ì‚ ‚½‚è‚©‚ç‰J‚ª‚·‚²‚©‚Á‚½BŒoŒ±‚µ‚½‚±‚Æ‚ª‚È‚©‚Á‚½‚Ì‚Å‘å•Ï‚¾‚Á‚½B‚Ç‚Ì‚æ‚¤‚É‰ß‚²‚³‚ê‚Ä‚¢‚½‚©‰Æ‚É‚¢‚é‚µ‚©o—ˆ‚È‚©‚Á‚½BZ…”íŠQó‹µˆê‹{_Ğ‚ÌÎ‚Ì‚Æ‚±‚ë‚Ü‚ÅƒMƒŠƒMƒŠ‘å•Ï‚¾‚Á‚½‚±‚Æ‚Œ©‚ÌŒ©•¨",
+    "name" : "Kã•ã‚“",
+    "description" : "èª¿æŸ»ã‚¨ãƒªã‚¢å­¦æ ¡å‘¨è¾ºèª¿æŸ»åœ°åŒºå €åœ°åŒºæ°åKã•ã‚“æ€§åˆ¥å¥³æ€§å±…ä½å¹´æ•°ç”Ÿã¾ã‚ŒãŸæ™‚ã‹ã‚‰ï¼—ï¼?ï¼˜ï¼å¹´è±ªé›¨æ™‚ã®å°è±¡æˆç¾é«˜æ ¡ã®ã‚ãŸã‚Šã‹ã‚‰é›¨ãŒã™ã”ã‹ã£ãŸã€‚çµŒé¨“ã—ãŸã“ã¨ãŒãªã‹ã£ãŸã®ã§å¤§å¤‰ã ã£ãŸã€‚ã©ã®ã‚ˆã†ã«éã”ã•ã‚Œã¦ã„ãŸã‹å®¶ã«ã„ã‚‹ã—ã‹å‡ºæ¥ãªã‹ã£ãŸã€‚æµ¸æ°´è¢«å®³çŠ¶æ³ä¸€å®®ç¥ç¤¾ã®çŸ³ã®ã¨ã“ã‚ã¾ã§ã‚®ãƒªã‚®ãƒªå¤§å¤‰ã ã£ãŸã“ã¨é«˜è¦‹ã®è¦‹ç‰©",
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/noimage.png",
       "scale" : 0.2
@@ -35,7 +35,7 @@ var czml = [
     }
   },{
     "id" : "6",
-    "name" : "M‚³‚ñ",
+    "name" : "Mã•ã‚“",
     "description" : "test",
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/noimage.png",
@@ -64,7 +64,7 @@ var czml = [
     }
   },{
     "id" : "7",
-    "name" : "A‚³‚ñ",
+    "name" : "Aã•ã‚“",
     "description" : {
 	"text" : "http://nbayashi.github.io/Australia2016/0501/IMG_1919.JPG"
 	},
@@ -95,7 +95,7 @@ var czml = [
     }
   },{
     "id" : "14",
-    "name" : "F‚³‚ñ",
+    "name" : "Fã•ã‚“",
     "description" : "test",
     "billboard" : {
       "image" : "http://sagara1020.github.io/tokyo-demo/cesium-starter-app-master/Source/img/noimage.png",
@@ -124,7 +124,7 @@ var czml = [
     }
   }
 ];
-viewer.dataSources.add(Cesium.CzmlDataSource.load(czml));
+///viewer.dataSources.add(Cesium.CzmlDataSource.load(czml));
 viewer.dataSources.add(Cesium.KmlDataSource.load('AUS2016.kml'));
 viewer.camera.flyTo({   
-     destination : Cesium.Cartesian3.fromDegrees(135.825462,35.086077,8000)});
+     destination : Cesium.Cartesian3.fromDegrees(135.825462,-25.086077,8000)});
