@@ -292,13 +292,13 @@ viewer.entities.add({
                scale : 0.12
                }
            });
-<!--
+/*
 viewer.dataSources.add(Cesium.KmlDataSource.load('doc.kml'),
      {
          camera: viewer.scene.camera,
          canvas: viewer.scene.canvas
      });
      
--->     
+*/
 
 viewer.zoomTo(viewer.entities);
