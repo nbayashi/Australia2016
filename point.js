@@ -125,6 +125,6 @@ var czml = [
   }
 ];
 ///viewer.dataSources.add(Cesium.CzmlDataSource.load(czml));
-viewer.dataSources.add(Cesium.KmlDataSource.load('AUS2016.kml'));
+viewer.dataSources.add(Cesium.KmlDataSource.load('AUS2016Low.kml'));
 viewer.camera.flyTo({   
      destination : Cesium.Cartesian3.fromDegrees(135.825462,-25.086077,800000)});
